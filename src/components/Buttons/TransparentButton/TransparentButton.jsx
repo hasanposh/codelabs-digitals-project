@@ -4,12 +4,15 @@ import { Button } from "@mui/material";
 const TransparentButton = ({ btnName }) => {
   return (
     <Button
+    
       variant="outlined"
       endIcon={<CallMadeIcon />}
       sx={{
         color: "#020043",
         borderColor: "#343268",
         borderRadius: "12px",
+        px: "28px", 
+        py: "8px", 
       }}
     >
       {btnName}

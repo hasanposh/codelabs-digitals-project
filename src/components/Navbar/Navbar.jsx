@@ -26,9 +26,9 @@ function Navbar() {
 
   return (
     <AppBar
-      className="font-Inter"
+      className="font-Inter max-w-[1160px] mx-auto"
       position="static"
-      sx={{ backgroundColor: "transparent", boxShadow: "none", height: "144px" }}
+      sx={{ backgroundColor: "transparent", boxShadow: "none", }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
