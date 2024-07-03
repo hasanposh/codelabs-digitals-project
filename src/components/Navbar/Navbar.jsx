@@ -102,7 +102,7 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            <img src="/logo dark.png" className="w-2/4" alt="" />
+            <img src="/logo dark.png" className="" alt="" />
           </Typography>
           <Box
             sx={{
